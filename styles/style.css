@@ -1,31 +1,286 @@
-/**************/
-/* CSS REMEDY */
-/**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+
+/*---------navigatie systeem---------*/
+header nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #000;
+	color: #fff;
+	padding: .8em;
+
+}
+
+header nav section {
+	width: 30px;
+	height: 30px;
+	background-color: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+header nav ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+header nav ul li {
+	margin: 0 10px;
+}
+
+/*---------maincontent middle sectie---------*/
+main {
+	margin: 1em;
+}
+
+.maincontent-music {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 10px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+@media (min-width:900px) {
+	.maincontent-music {
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+}
+
+.maincontent-music li {
+	padding: 5px;
+	border: 1px solid #ccc;
+}
+
+.nav-maincontent {
+	position: fixed;
+}
+
+.nav-maincontent-list ul {
+	display: flex;
+	list-style: none;
+	margin: 1em;
+	padding: 0;
+}
+
+.nav-maincontent-list li {
+	display: flex;
+	align-items: center;
+	margin: .2em;
+	padding: .2em .6em;
+	border-radius: 3em;
+	background-color: rgba(0, 0, 0, 0.08);
+
+}
+
+/*---------made for you list-----------*/
+.made-for-you {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/* Default: Show only the first 2 items */
+.made-for-you-list li {
+	display: none;
+	/* Hide all items by default */
+	padding: 5px;
+	border: 1px solid red;
+}
+
+.made-for-you-list ul {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 10px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+.made-for-you-list li:nth-child(-n+2) {
+	display: block;
+	/* Show the first 2 items */
+
+}
+
+/* Stage 2:*/
+@media (min-width: 650px) {
+	.made-for-you-list ul {
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	.made-for-you-list li:nth-child(-n+4) {
+		display: block;
+	}
+}
+
+
+
+/* Stage 3: */
+@media (min-width: 900px) {
+	.made-for-you-list ul {
+		grid-template-columns: repeat(6, 1fr);
+
+	}
+
+	.made-for-you-list li {
+		display: block;
+	}
+}
+
+/*----------recently played list----------*/
+.recently-played {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/* Default: Show only the first 2 items */
+.recently-played-list li {
+	display: none;
+	/* Hide all items by default */
+	padding: 5px;
+	border: 1px solid red;
+}
+
+.recently-played-list ul {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 10px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+.recently-played-list li:nth-child(-n+2) {
+	display: block;
+	/* Show the first 2 items */
+
+}
+
+/* Stage 2:*/
+@media (min-width: 650px) {
+	.recently-played-list ul {
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	.recently-played-list li:nth-child(-n+4) {
+		display: block;
+	}
+}
+
+
+
+/* Stage 3: */
+@media (min-width: 900px) {
+	.recently-played-list ul {
+		grid-template-columns: repeat(6, 1fr);
+
+	}
+
+	.recently-played-list li {
+		display: block;
+	}
+}
+
+/*---------New release for you---------*/
+.new-release-for-you {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.new-release-for-you-list li {
+	/* Default: Show only the first 2 items */
+	display: none;
+	/* Hide all items by default */
+	padding: 5px;
+	border: 1px solid red;
+}
+
+.new-release-for-you-list ul {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 10px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+.new-release-for-you-list li:nth-child(-n+2) {
+	display: block;
+	/* Show the first 2 items */
+
+}
+
+/* Stage 2:*/
+@media (min-width: 650px) {
+	.new-release-for-you-list ul {
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	.new-release-for-you-list li:nth-child(-n+4) {
+		display: block;
+	}
+}
+
+
+
+/* Stage 3: */
+@media (min-width: 900px) {
+	.new-release-for-you-list ul {
+		grid-template-columns: repeat(6, 1fr);
+
+	}
+
+	.new-release-for-you-list li {
+		display: block;
+	}
+}
+
+/*---------2x5 album covers---------*/
+.albumcovers ul{
+	display: grid;
+	grid-template-columns: 1fr;
+	list-style: none;
+	color: red;
+	gap: 10px;
+
+	padding: 0;
 }
 
 
 
 
-
-
-/*********************/
-/* CUSTOM PROPERTIES */
-/*********************/
-:root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+.albumcovers li{
+	padding: 5px;
+	border: 1px solid purple;
 }
 
-
-
-
-
-/****************/
-/* JOUW STYLING */
-/****************/
-
-/* jouw code */
-
+@media (min-width: 900px) {
+	.albumcovers ul {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	}
+/* main {
+	background-color: red;
+	  position: relative;
+  background-color: rgba(255, 255, 255, 0.8);
+  max-width: 800px;
+  padding: 20px;
+  border-radius: 10px;
+  overflow-y: auto;
+  max-height: 90vh;
+}*/
