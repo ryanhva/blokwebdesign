@@ -52,7 +52,7 @@ https://open.spotify.com/playlist/37i9dQZF1E8RZQSx3O0OCQ
 ## Toegankelijkheidstest 1/2 (week 1)
 
 <details>
-  <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
+  <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary> wat moet ik hier doen?  
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
@@ -67,13 +67,13 @@ https://open.spotify.com/playlist/37i9dQZF1E8RZQSx3O0OCQ
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="images/breakdown-alles.jpg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="images/breakdown-main.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="images/breakdown-twee.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -93,7 +93,7 @@ https://open.spotify.com/playlist/37i9dQZF1E8RZQSx3O0OCQ
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | ryan   | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
@@ -103,10 +103,10 @@ https://open.spotify.com/playlist/37i9dQZF1E8RZQSx3O0OCQ
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - maak eerst mobile first
+  - verbetr/ maak breakdown schets af
+  - begin stap voor stap, ipv ergens in het midden of alles tegelijker tijd te maken. Focus op 1 gedeelte dan het ander
+  - 
 
 </details>
 
