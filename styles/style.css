@@ -3,6 +3,9 @@ body {
 	font-family: Arial, sans-serif;
 }
 
+main{
+	margin:1em;
+}
 /*---------navigatie systeem---------*/
 header nav {
 	display: flex;
@@ -11,17 +14,31 @@ header nav {
 	background-color: #000;
 	color: #fff;
 	padding: .8em;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	right: 0;
+	top:0;
+} 
 
+header nav section img {
+	width: 32px;
+	height: 32px;
 }
 
-header nav section {
+header nav ul li img {
+	background-color: red;
+	height: 27px;
+	width: 27px;
+}
+/* header nav section {
 	width: 30px;
 	height: 30px;
 	background-color: red;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
+} */
 
 
 header nav ul {
@@ -35,12 +52,70 @@ header nav ul li {
 	margin: 0 10px;
 }
 
-/*---------maincontent middle sectie---------*/
-main {
-	margin: 1em;
+
+
+
+/*---------sidebar lef-----------------------*/
+.sidebar-left {
+	position: fixed;
+	left: 1em;
+	top: 3.4em;
+	bottom: 5em;
+
+
 }
 
-.maincontent-music {
+.sidebar-left-button {
+	position: fixed;
+	background-color: aqua;
+	width: 62.650px;
+	border-radius: 25% 25% 0 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+} 
+
+.sidebar-left-songs {
+	position: fixed;
+	left: 1em;
+	top: 7.64em;
+	bottom: 0;
+	background-color: rgba(243, 14, 14, 0.44);
+	overflow-y: scroll;
+}
+.sidebar-left ul {
+	display: grid;
+	grid-template-columns: 1fr;
+	list-style: none;
+	gap: 1em;
+	padding: 0;
+	
+}
+
+.sidebar-left ul li {
+	border: 1px solid red;
+	aspect-ratio: 1/1;
+}
+
+.sidebar-left a {
+	text-decoration: none;
+}
+
+
+/*---------maincontent middle sectie---------*/
+.maincontent {
+	border-radius: 10% 10% 0 0;
+	margin: 1em;
+	padding: 20px;
+	position: fixed;
+	left: 5em;
+	right: 0;
+	background-color: rgba(212, 150, 6, 0.8);
+	overflow-y: auto;
+	max-height: 90vh;
+}
+
+.maincontent-music ul {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	gap: 10px;
@@ -50,29 +125,27 @@ main {
 }
 
 @media (min-width:900px) {
-	.maincontent-music {
+	.maincontent-music ul {
 		grid-template-columns: repeat(4, 1fr);
 	}
 
 }
 
-.maincontent-music li {
+.maincontent-music ul li {
 	padding: 5px;
 	border: 1px solid #ccc;
 }
 
-.nav-maincontent {
-	position: fixed;
-}
 
-.nav-maincontent-list ul {
+
+.maincontent-nav nav ul {
 	display: flex;
 	list-style: none;
 	margin: 1em;
 	padding: 0;
 }
 
-.nav-maincontent-list li {
+.maincontent-nav nav ul li {
 	display: flex;
 	align-items: center;
 	margin: .2em;
@@ -92,7 +165,6 @@ main {
 /* Default: Show only the first 2 items */
 .made-for-you-list li {
 	display: none;
-	/* Hide all items by default */
 	padding: 5px;
 	border: 1px solid red;
 }
@@ -109,7 +181,6 @@ main {
 
 .made-for-you-list li:nth-child(-n+2) {
 	display: block;
-	/* Show the first 2 items */
 
 }
 
@@ -148,7 +219,6 @@ main {
 /* Default: Show only the first 2 items */
 .recently-played-list li {
 	display: none;
-	/* Hide all items by default */
 	padding: 5px;
 	border: 1px solid red;
 }
@@ -165,7 +235,6 @@ main {
 
 .recently-played-list li:nth-child(-n+2) {
 	display: block;
-	/* Show the first 2 items */
 
 }
 
@@ -204,7 +273,6 @@ main {
 .new-release-for-you-list li {
 	/* Default: Show only the first 2 items */
 	display: none;
-	/* Hide all items by default */
 	padding: 5px;
 	border: 1px solid red;
 }
@@ -221,7 +289,6 @@ main {
 
 .new-release-for-you-list li:nth-child(-n+2) {
 	display: block;
-	/* Show the first 2 items */
 
 }
 
@@ -251,20 +318,19 @@ main {
 }
 
 /*---------2x5 album covers---------*/
-.albumcovers ul{
+.albumcovers ul {
 	display: grid;
 	grid-template-columns: 1fr;
 	list-style: none;
 	color: red;
 	gap: 10px;
-
 	padding: 0;
 }
 
 
 
 
-.albumcovers li{
+.albumcovers li {
 	padding: 5px;
 	border: 1px solid purple;
 }
@@ -273,7 +339,8 @@ main {
 	.albumcovers ul {
 		grid-template-columns: repeat(2, 1fr);
 	}
-	}
+}
+
 /* main {
 	background-color: red;
 	  position: relative;
@@ -283,4 +350,4 @@ main {
   border-radius: 10px;
   overflow-y: auto;
   max-height: 90vh;
-}*/
+}  */

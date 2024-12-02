@@ -126,8 +126,8 @@ https://open.spotify.com/playlist/37i9dQZF1E8RZQSx3O0OCQ
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
+  | ryan      | quincy          | student 3    | student 4        |
+  | ---            | svg gebruik, erin voegen. In script werken button erin verwerken. hoe geven we een button play functie. hoe geven we pause functie             | ---          | ---              |
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
