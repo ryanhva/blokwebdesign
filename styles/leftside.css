@@ -1,0 +1,106 @@
+/*---------sidebar lef-----------------------*/
+.sidebar-left {
+	position: fixed;
+	left: .5em;
+	bottom: 5em;
+}
+
+.sidebar-left a {
+	text-decoration: none;
+}
+
+.sidebar-left-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 4.06em;
+	background-color: var(--background-color);
+	width: 72px;
+	height: 60px;
+	border-radius: 5px 5px 0 0;
+}
+
+.sidebar-left-button button {
+	border: none;
+	background-color: var(--background-color);
+}
+
+.sidebar-left-songs {
+	position: fixed;
+	left: .5em;
+	top: 7.81em;
+	bottom: 5.15em;
+	background-color: var(--background-color);
+	overflow-y: scroll;
+	overflow-x: hidden;
+	width: 72px;
+	scroll-behavior: smooth;
+
+}
+
+
+.sidebar-left-songs ul {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+
+
+}
+
+.sidebar-left-songs ul li a {
+	position: relative;
+	left: 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 64px;
+	height: 64px;
+	transition: background-color 0.3s ease;
+
+}
+
+.sidebar-left-songs ul li a:hover {
+	background-color: var(--hover-color1);
+	border-radius: 10px;
+
+
+}
+
+
+
+
+.sidebar-left-songs img {
+	aspect-ratio: 1/1;
+	width: 50px;
+	border-radius: 10px;
+
+}
+
+
+
+.sidebar-left-songs::-webkit-scrollbar {
+	width: 6px;
+
+
+
+}
+
+.sidebar-left-songs::-webkit-scrollbar-track {
+	background: none;
+}
+
+.sidebar-left-songs::-webkit-scrollbar-thumb {
+	background-color: rgba(255, 255, 255, 0.4);
+	border-radius: 10px;
+
+}
+
+.sidebar-left-songs::-webkit-scrollbar-thumb:hover {
+	background-color: rgba(255, 255, 255, 0.7);
+
+}

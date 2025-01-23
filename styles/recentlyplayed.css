@@ -1,0 +1,52 @@
+/*----------recently played list----------*/
+.recently-played {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Default: Show only the first 2 items */
+.recently-played-list li {
+    display: none;
+    padding: 5px;
+}
+
+.recently-played-list ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.recently-played-list li:nth-child(-n+2) {
+    display: block;
+
+}
+
+/* Stage 2:*/
+@media (min-width: 650px) {
+    .recently-played-list ul {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .recently-played-list li:nth-child(-n+4) {
+        display: block;
+    }
+}
+
+
+
+/* Stage 3: */
+@media (min-width: 900px) {
+    .recently-played-list ul {
+        grid-template-columns: repeat(6, 1fr);
+
+    }
+
+    .recently-played-list li {
+        display: block;
+    }
+}

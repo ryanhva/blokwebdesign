@@ -199,21 +199,15 @@ https://open.spotify.com/playlist/37i9dQZF1E8RZQSx3O0OCQ
 <details>
   <summary>uitwerken voor eindgesprek</summary>
 
-  ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+Dit was een uitdagend project dat me zowel mijn codeer vaardigheden op de proef heeft gesteld.
 
+Het proces van het bouwen van de spotify clone was allesbehalve makkelijk. Ik heb veel zoals het begrijpen van complexe frameworks, het toevoegen en verbeteren van een responsive design, het omgaan met flex en grid en waar ik het meest waarde aanhecht is dat ik heb geleerd hoe ik zo een groot project moet delen in kleinere stukken en hoe ik mijn werkwijze voor dit kan verbteren. Want hiervoor was mijn werkwijze erg rommelig en onoverzichtelijk, ik weet zeker dat bij mijn volgende project ik veel praktischer en netter kan werken. Ondanks de moeilijkheden ben ik blij dat ik deze uitdaging ben aangegaan. 
 
-  ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+IEts waar ik ook tegen aan liep, was de tijdslimiet. Ik denk dat met meer tijd tijdens de lesuren ik mijn proces had kunnen verbeteren en misschien een nog een betere eindproduct had kunnen opleveren. Toch ben ik trots op wat ik heb bereikt in de beschikbare tijd.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+ik ben het meest tevreden met, het gevoel dat ik mezelf heb uitgedaagd. Ik koos bewust voor een moeilijk project, omdat ik wist dat ik veel meer zou leren dan wanneer ik voor een simpelere optie had gekozen. Uiteindelijk denk ik dat dit de juiste keuze was, omdat ik niet tevreden zou zijn geweest met een project waar ik minder moeite voor had hoeven doen.
 
-
-  ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
-</details>
+Dit project heeft me niet alleen nieuwe technische vaardigheden geleerd, maar me ook laten inzien hoe belangrijk het is om jezelf uit je comfortzone te halen. Ik kijk ernaar uit om deze ervaring mee te nemen naar toekomstige projecten en mezelf steeds verder te blijven uitdagen.</details>
 
 
 
@@ -228,8 +222,15 @@ https://open.spotify.com/playlist/37i9dQZF1E8RZQSx3O0OCQ
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. chatgpt
+  2. https://codepen.io/ryanhva/pen/pvzxNdY
+  3. https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_button_on_image
+  4. https://css-tricks.com/almanac/properties/p/position/
+  5. https://www.svgrepo.com/svg/524226/add-circle
+  6. https://app.aiseo.ai/tools/youtube-to-mp3
+  7. https://codepen.io/ryanhva/pen/gbYdNWE
+  8. https://codepen.io/ryanhva/pen/vEBzqJV
+  9. https://www.youtube.com/watch?v=i3Sl-Ns0O7o&t=3351s
+  10. https://www.youtube.com/watch?v=DvBe6z9vhfU&t=377s 
 
 </details>

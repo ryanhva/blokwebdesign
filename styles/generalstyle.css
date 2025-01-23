@@ -7,3 +7,9 @@
     --hover-color1:#535353;
     --hover-color2:#b3b3b3;
 }
+
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background-color:var(--body-color);
+}

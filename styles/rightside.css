@@ -1,0 +1,61 @@
+/*----------sidebar riggt-------------*/
+.sidebar-right {
+    max-width: 230px;
+    position: fixed;
+    right: .5em;
+    display: none;
+    top: 3.8em;
+    bottom: 5em;
+    background-color: var(--background-color);
+    padding: 0 1em;
+}
+
+
+@media (min-width:600px) {
+    .sidebar-right {
+        display: block;
+    }
+
+}
+
+.sidebar-right ul {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding: 0;
+
+    list-style: none;
+}
+
+.sidebar-right img {
+    aspect-ratio: 1;
+    width: 14.5em;
+}
+
+.sidebar-right-title {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    color: white;
+}
+
+button {
+    background-color: var(--background-color);
+    box-shadow: none;
+    border: none;
+}
+
+.sidebar-right-title h2 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.sidebar-right-title button {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.sidebar-right-title h3 {
+    grid-area: 2 / 1 / 3 / 3;
+}
