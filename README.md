@@ -18,10 +18,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Auteur:
  Ryan yeung
   #### Je startniveau:
-  rood
+  blauw/rood
 
   #### Je focus:
-  Main focus survice plain probeer ook repsonsifness bij te p[akken]
+  Main focus responsiveness en als mogelijk is beetje service plain
  
 </details>
 
@@ -52,7 +52,7 @@ https://open.spotify.com/playlist/37i9dQZF1E8RZQSx3O0OCQ
 ## Toegankelijkheidstest 1/2 (week 1)
 
 <details>
-  <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary> wat moet ik hier doen?  
+  <summary>de screen reader van spotify werkt goed, het wordt duidelijk afgelezen en feedback erop gegeven, alleen heeft de img van spotify geen alt. Dus hierdoor zou iemand niet kunnen weten wat de image inhoudt. Als laatst heeft de websit geen dark/lightmode functie</summary> ?  
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
@@ -197,9 +197,10 @@ https://open.spotify.com/playlist/37i9dQZF1E8RZQSx3O0OCQ
 ## Eindgesprek (week 5)
 
 <details>
-  <summary>uitwerken voor eindgesprek</summary>
-
-Dit was een uitdagend project dat me zowel mijn codeer vaardigheden op de proef heeft gesteld.
+  <summary>
+  uitwerken voor eindgesprek
+  
+  Dit was een uitdagend project dat me zowel mijn codeer vaardigheden op de proef heeft gesteld.
 
 Het proces van het bouwen van de spotify clone was allesbehalve makkelijk. Ik heb veel zoals het begrijpen van complexe frameworks, het toevoegen en verbeteren van een responsive design, het omgaan met flex en grid en waar ik het meest waarde aanhecht is dat ik heb geleerd hoe ik zo een groot project moet delen in kleinere stukken en hoe ik mijn werkwijze voor dit kan verbteren. Want hiervoor was mijn werkwijze erg rommelig en onoverzichtelijk, ik weet zeker dat bij mijn volgende project ik veel praktischer en netter kan werken. Ondanks de moeilijkheden ben ik blij dat ik deze uitdaging ben aangegaan. 
 
@@ -207,7 +208,10 @@ IEts waar ik ook tegen aan liep, was de tijdslimiet. Ik denk dat met meer tijd t
 
 ik ben het meest tevreden met, het gevoel dat ik mezelf heb uitgedaagd. Ik koos bewust voor een moeilijk project, omdat ik wist dat ik veel meer zou leren dan wanneer ik voor een simpelere optie had gekozen. Uiteindelijk denk ik dat dit de juiste keuze was, omdat ik niet tevreden zou zijn geweest met een project waar ik minder moeite voor had hoeven doen.
 
-Dit project heeft me niet alleen nieuwe technische vaardigheden geleerd, maar me ook laten inzien hoe belangrijk het is om jezelf uit je comfortzone te halen. Ik kijk ernaar uit om deze ervaring mee te nemen naar toekomstige projecten en mezelf steeds verder te blijven uitdagen.</details>
+Dit project heeft me niet alleen nieuwe technische vaardigheden geleerd, maar me ook laten inzien hoe belangrijk het is om jezelf uit je comfortzone te halen. Ik kijk ernaar uit om deze ervaring mee te nemen naar toekomstige projecten en mezelf steeds verder te blijven uitdagen.
+</summary>
+
+</details>
 
 
 
